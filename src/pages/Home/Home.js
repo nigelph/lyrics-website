@@ -8,8 +8,9 @@ export default function Home() {
     return (
         <div className={homeStyle['home-container']}>
             <Navbar />
+            <h1 className={homeStyle['main-heading']}>Search Song Lyrics</h1>
             <SongForm />
-            <div id='show-lyrics'></div>
+            <div id='show-lyrics' className={homeStyle['lyrics-style']}></div>
             <Footer />
         </div>
     )
