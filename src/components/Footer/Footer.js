@@ -6,30 +6,7 @@ export default function Footer() {
         <footer className={footerStyle['footer-container']}>
             <div className={footerStyle['footer-content-container']}>
                 <div>
-                    <h3>Contact Us</h3>
-
-                    <a href="https://google.com">
-                        <p>one</p>
-                    </a>
-                    <a href="#">
-                        <p>one</p>
-                    </a>
-                </div>
-                <div>
-                    <h3>More Information</h3>
-                    <a href="#">
-                        <p>Shipping Information</p>
-                    </a>  <a href="#">
-                        <p>Return and Refund Policy</p>
-                    </a>
-                </div>
-                <div>
-                    <h3>About Us</h3>
-                    <a href="#">
-                        <p>one</p>
-                    </a>  <a href="#">
-                        <p>one</p>
-                    </a>
+                    <p>@Copyright Nigel Phan 2022</p>
                 </div>
             </div>
         </footer>
