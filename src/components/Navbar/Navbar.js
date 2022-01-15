@@ -7,7 +7,7 @@ export default function Navbar() {
 
             <ul className={navStyle['nav-list']}>
                 <a href="#">Home</a>
-                <a href="#">One</a>
+                <a href="#">About</a>
                 <a href="#">Two</a>
                 <a href="#">Three</a>
                 <a href="#">Four</a>
