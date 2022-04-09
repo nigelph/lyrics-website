@@ -1,7 +1,8 @@
 .form-container {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .form-style {
@@ -9,8 +10,5 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-}
-
-.form-style ul {
-  color: red;
+  width: 100%;
 }

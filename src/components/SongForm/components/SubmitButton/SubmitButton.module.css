@@ -1,21 +1,23 @@
+.submit-container {
+  display: flex;
+  justify-content: center;
+}
+
 .submit-button-style {
   border-style: none;
   border-radius: 5px;
   background-color: lightgrey;
   border-width: 1px;
   cursor: pointer;
-  width: 25%;
+  width: min(20%, 100px);
   height: 2rem;
-}
-
-.submit-container {
-  display: flex;
-  justify-content: center;
+  color: #7e2e84;
 }
 
 .submit-button-style:hover {
   border-style: solid;
   border-color: darkgrey;
+  background-color: lightseagreen;
   border-width: 1px;
   border-radius: 5px;
 }

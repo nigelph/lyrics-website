@@ -1,9 +1,23 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 .input-box-style {
   border-radius: 15px;
   height: 3rem;
-  width: 40rem;
+  width: min(70%, 700px);
   border-color: lightgrey;
   border-style: solid;
   font-size: 20px;
   margin: 10px 0px 10px 0px;
+}
+
+@media (max-width: 768px) {
+  .input-box-style {
+    height: 2rem;
+    font-size: 12px;
+  }
 }

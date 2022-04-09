@@ -3,7 +3,7 @@
   width: 100%;
   height: 6vh;
   justify-content: center;
-  background-color: lightseagreen;
+  background-color: var(--primary-color);
 }
 
 .nav-list {
